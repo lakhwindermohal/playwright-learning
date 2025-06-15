@@ -10,6 +10,7 @@ export class ElementsPage {
         this.page = page;
         this.textBoxCard = page.getByText('Text Box');
         this.checkBoxCard = page.getByText('Check Box');
+        this.radioButtonCard = page.getByText('Radio Button');
     }
 
     async clickTextBox() {
