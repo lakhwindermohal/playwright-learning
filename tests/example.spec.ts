@@ -14,7 +14,6 @@ test('DemoQA - Text Box Form Submission', async ({ page }) => {
   const textBoxPage = new TextBoxPage(page);
   const elementsPage = new ElementsPage(page);
   const screenshotUtil = new ScreenshotUtil(page);
-  
   const baseURL = userData.baseURL;
   const name = faker.person.fullName();
   const email = userData.email;
