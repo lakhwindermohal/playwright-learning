@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@pages/*": ["pages/*"]
+    },
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "types": ["@playwright/test"],
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["tests/**/*.ts", "pages/**/*.ts", "test-data/**/*.json"]
+}
